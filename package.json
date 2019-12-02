@@ -1,0 +1,26 @@
+{
+  "name": "consumeGQL-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "npm run build && npm run export"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-boost": "^0.4.4",
+    "apollo-client": "^2.6.4",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-apollo": "^3.1.3",
+    "react-dom": "^16.12.0"
+  }
+}
